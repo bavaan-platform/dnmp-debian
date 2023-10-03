@@ -1,2 +1,2 @@
-deb http://repo.mysql.com/apt/debian/ stretch mysql-5.7
-deb-src http://repo.mysql.com/apt/debian/ stretch mysql-5.7
+deb [ signed-by=/etc/apt/keyrings/mysql.gpg ] http://repo.mysql.com/apt/debian/ bullseye mysql-8.0
+deb-src [ signed-by=/etc/apt/keyrings/mysql.gpg ] http://repo.mysql.com/apt/debian/ bullseye mysql-8.0
