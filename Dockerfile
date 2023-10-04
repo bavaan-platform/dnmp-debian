@@ -149,6 +149,7 @@ RUN \
     apt-get clean && \
     rm -rf /tmp/* /var/lib/apt/lists/*
 COPY fs/etc/mysql/ /etc/mysql/
+EXPOSE 80 443 3306 9200 9000 6379 5672 15672
 # define entrypoint
 ENTRYPOINT ["docker-entrypoint.sh"]
 
